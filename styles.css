@@ -1,0 +1,82 @@
+
+html {
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-bottom: 20px;;
+}
+
+#menu {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 50px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 300px
+}
+
+input[type="color"] {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#clear-grid {
+    height: 50px; 
+    width: 350px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#grid-size {
+    color: green;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 2px solid darkcyan;
+    border-radius: 35%;
+    padding: 0 8px; 
+}
+
+#container {
+    border: 5px solid darkcyan;
+    border-radius: 1%;
+    border-style: dashed;
+    padding: 0;
+}
+
+#sketch-area {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-cell {
+    box-sizing: border-box;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #181818;
+    color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Etch-a-sketch</title>
+        <meta charset="utf-8" />
+        <link href="styles.css" rel="stylesheet" />
+        <link href="paint-brush.png" rel="icon" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+       <header>
+            <h1>Etch-a-sketch</h1>        
+       </header>
+       <hr>
+       <main>
+            <div id="menu">
+                <div>
+                    <span style="margin-bottom: 0">Change grid size</span>
+                    <input type="range" value="30" min="10" max="150" id="change-grid-size"/>
+                    <span id="grid-size"></span>
+                </div>
+                <div>
+                    <label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                </div>
+                <button id="clear-grid">Clear grid</button>
+            </div>
+            <div id="container">
+                <div id="sketch-area"></div>
+            </div>
+       </main>
+       <footer>
+            &copy; Leul Yiheyis (December 2022)
+       </footer>
+    </body>
+</html>
